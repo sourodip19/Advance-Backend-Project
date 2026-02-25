@@ -1,0 +1,31 @@
+{
+  "name": "banking-backend",
+  "version": "1.0.0",
+  "description": "This project is a **production-style banking backend system** built using **Node.js and Express**. It demonstrates how real-world banking systems handle authentication, account management, transactions, and ledger-based balance tracking.",
+  "homepage": "https://github.com/sourodip19/Advance-Backend-Project#readme",
+  "bugs": {
+    "url": "https://github.com/sourodip19/Advance-Backend-Project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sourodip19/Advance-Backend-Project.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.2",
+    "nodemon": "^3.1.14"
+  }
+}
